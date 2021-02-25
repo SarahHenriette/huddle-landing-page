@@ -1,0 +1,45 @@
+p {
+    font-family: $openSans;
+    color: $veryDarkCyan;
+}
+button {
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-pink {
+    width: 400px;
+    height: 80px;
+    color: $veryPaleBlue;
+    background-color: $pink;
+    font-size: 20px;
+    font-family: $openSans;
+    font-weight: 700;
+    border-style: none;
+}
+
+h2 {
+    font-family: $poppins;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    color: $veryDarkCyan;
+    margin: 0;
+}
+.text-main {
+    font-family: $openSans;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.image {
+    width: 560px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+}

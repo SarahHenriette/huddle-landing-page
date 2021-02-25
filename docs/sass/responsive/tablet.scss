@@ -1,0 +1,79 @@
+    nav {
+        width: 700px;
+    }
+    header {
+        width: 674px;
+        height: 1000px;
+        .text-header {
+            height: 401px;
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+
+    #abonnement-figure {
+        width: 629px;
+        .contain-figure {
+            width: 193px;
+            .figure {
+                font-size: 66px;
+                line-height: 90px;
+            }
+            .text-figure {
+                font-size: 19px;
+            }
+        }
+    }
+
+    main {
+        .flowing-conversations {
+            width: 100%;
+            height: 429px;
+            flex-direction: column;
+            .text {
+                align-items: center;
+            }
+            .image {
+                margin: 0 0 40px 0;
+                width: 280px;
+                height: 280px;
+            }
+        }
+        .background-blue {
+            height: 710px;
+            .contain {
+                top: 83px;
+                .image {
+                    width: 235px;
+                    height: 235px;
+                }
+                .text {
+                    width: 311px;
+                    height: 205px;
+                    
+                }
+            }
+        }
+        .your-user {
+            margin-top: 120px;
+            
+        }
+    }
+    footer {
+        .contain {
+            height: 637px;
+            justify-content: center;
+            .newsletter {
+                width: 320px;
+                height: 282px;
+                form {
+                    width: 320px;
+                    height: 112px;
+                    flex-direction: column;
+                    align-items: flex-end;
+                }
+            } 
+        }
+    }
+

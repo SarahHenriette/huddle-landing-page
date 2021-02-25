@@ -1,0 +1,156 @@
+// @media (min-width: 0px) and (max-width: 420px) {
+    h2 {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .text-main {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .btn-pink {
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+    }
+    nav {
+        width: 327px;
+        height: 24px;
+        margin-top: 24px;
+        img {
+            width: 96px;
+            height: 16px;
+        }
+        button {
+            width: 80px;
+            height: 24px;
+            font-size: 9px;
+        }
+    }
+
+    header {
+        width: 296px;
+        height: 581px;
+        margin-top: 112px;
+        .text-header {
+            width: 100%;
+            height: 268px;
+            h1 {
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+            }
+            p {
+                width: 100%;
+                height: 84px;
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+
+        .image-header {
+            width: 100%;
+            height: 209px;
+        }
+    }
+
+    #abonnement-figure {
+        width: 160px;
+        height: 356px;
+        flex-direction: column;
+        .contain-figure {
+            width: 100%;
+            height: 142px;
+            .icon-figure {
+                width: 35px;
+                height: 35px;
+            }
+            .figure {
+                font-size: 60px; 
+            }
+            .text-figure {
+                font-size: 15px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    main {
+        .background-blue {
+            height: 763px;
+            .contain {
+                flex-direction: column-reverse;
+                top: 100px;
+                height: 612px;
+                .image {
+                    width: 280px;
+                    height: 280px;
+                    margin-left: 0;
+                    margin-bottom: 40px;
+                }
+                .text {
+                    width: 320px;
+                    height: 130px;
+                    align-items: center;
+                }
+            }
+        }
+        .grow-together {
+            background-image: url('./../images/bg-mobile-1.svg');
+        }
+        .your-user {
+            background-image: url('./../images/bg-mobile-2.svg');
+            margin-top: 120px;
+            .contain {
+                height: 560px;
+            }
+        }
+        .flowing-conversations {
+            width: 320px;
+            height: 429px;
+            flex-direction: column;
+            margin-top: 67px;
+            .text {
+                width: 100%;
+                height: 109px;
+                
+            }
+            .image {
+                margin-right: 0;
+                margin-bottom: 40px;
+                width: 280px;
+                height: 280px;
+            }
+        }
+        .ready-to-build {
+            width: 344px;
+            height: 152px;
+            h2 {
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+    }
+    footer {
+        height: 840px;
+        background-image: url('./../images/bg-footer-top-mobile.svg');
+        .contain {
+            height: 800px;
+            flex-direction: column-reverse;
+            .infos {
+                width: 320px;
+            }
+            .newsletter {
+                width: 320px;
+                height: 282px;
+                form {
+                    width: 320px;
+                    height: 112px;
+                    flex-direction: column;
+                    align-items: flex-end;
+                }
+            } 
+        }
+    }
+// }
