@@ -117,7 +117,7 @@ header .image-header img {
   width: 100%;
 }
 
-#abonnement-figure {
+.abonnement-figure {
   width: 880px;
   height: 222px;
   margin: auto;
@@ -125,15 +125,15 @@ header .image-header img {
   display: flex;
   justify-content: space-between;
 }
-#abonnement-figure .contain-figure {
+.abonnement-figure .contain-figure {
   width: 252px;
   height: 222px;
 }
-#abonnement-figure .contain-figure .icon-figure {
+.abonnement-figure .contain-figure .icon-figure {
   width: 56px;
   height: 56px;
 }
-#abonnement-figure .contain-figure .figure {
+.abonnement-figure .contain-figure .figure {
   font-family: "Open Sans", sans-serif;
   font-size: 96px;
   font-weight: bold;
@@ -142,7 +142,7 @@ header .image-header img {
   color: #00252e;
   margin: 0;
 }
-#abonnement-figure .contain-figure .text-figure {
+.abonnement-figure .contain-figure .text-figure {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   line-height: 36px;
@@ -365,17 +365,17 @@ footer .contain .newsletter form input[type=email i]:focus {
     text-align: center;
   }
 
-  #abonnement-figure {
+  .abonnement-figure {
     width: 629px;
   }
-  #abonnement-figure .contain-figure {
+  .abonnement-figure .contain-figure {
     width: 193px;
   }
-  #abonnement-figure .contain-figure .figure {
+  .abonnement-figure .contain-figure .figure {
     font-size: 66px;
     line-height: 90px;
   }
-  #abonnement-figure .contain-figure .text-figure {
+  .abonnement-figure .contain-figure .text-figure {
     font-size: 19px;
   }
 
@@ -484,23 +484,23 @@ footer .contain .newsletter form input[type=email i]:focus {
     height: 209px;
   }
 
-  #abonnement-figure {
+  .abonnement-figure {
     width: 160px;
     height: 356px;
     flex-direction: column;
   }
-  #abonnement-figure .contain-figure {
+  .abonnement-figure .contain-figure {
     width: 100%;
     height: 142px;
   }
-  #abonnement-figure .contain-figure .icon-figure {
+  .abonnement-figure .contain-figure .icon-figure {
     width: 35px;
     height: 35px;
   }
-  #abonnement-figure .contain-figure .figure {
+  .abonnement-figure .contain-figure .figure {
     font-size: 60px;
   }
-  #abonnement-figure .contain-figure .text-figure {
+  .abonnement-figure .contain-figure .text-figure {
     font-size: 15px;
     line-height: 22px;
   }
