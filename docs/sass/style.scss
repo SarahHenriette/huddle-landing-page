@@ -36,7 +36,12 @@ nav {
         border: 1px solid $pink;
         color: $pink;
         background-color: transparent;
+        transition: background-color linear .5s, color linear .5s;
         cursor: pointer;
+        &:hover {
+            background-color: $pink ;
+            color: #FFF;
+        }
     }
 }
 
@@ -301,15 +306,20 @@ footer {
                     border-radius: 6px;
                     border-style: none;
                     cursor: pointer;
+                    transition: background-color linear .5s, color linear .5s;
                     &:focus {
                         outline: none;
                     }
+                    &:hover {
+                        background-color: #FFF;
+                        color: $pink;
+                    }
                 }
                 input[type="email" i] {
-                    width: 320px;
+                    width: 284px;
                     height: 48px;
                     border-radius: 6px;
-                    padding: 0;
+                    padding: 0 18px;
                     border-style: none;
                     &:focus {
                         outline: none;

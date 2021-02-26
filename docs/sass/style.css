@@ -23,6 +23,11 @@ button {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   border-style: none;
+  transition: background-color 0.5s linear;
+  box-shadow: 2px 7px 9px #00252e40;
+}
+.btn-pink:hover {
+  background-color: #000;
 }
 
 h2 {
@@ -73,7 +78,12 @@ nav button {
   border: 1px solid #ff52bf;
   color: #ff52bf;
   background-color: transparent;
+  transition: background-color linear 0.5s, color linear 0.5s;
   cursor: pointer;
+}
+nav button:hover {
+  background-color: #ff52bf;
+  color: #FFF;
 }
 
 header {
@@ -334,15 +344,20 @@ footer .contain .newsletter form input[type=submit i] {
   border-radius: 6px;
   border-style: none;
   cursor: pointer;
+  transition: background-color linear 0.5s, color linear 0.5s;
 }
 footer .contain .newsletter form input[type=submit i]:focus {
   outline: none;
 }
+footer .contain .newsletter form input[type=submit i]:hover {
+  background-color: #FFF;
+  color: #ff52bf;
+}
 footer .contain .newsletter form input[type=email i] {
-  width: 320px;
+  width: 284px;
   height: 48px;
   border-radius: 6px;
-  padding: 0;
+  padding: 0 18px;
   border-style: none;
 }
 footer .contain .newsletter form input[type=email i]:focus {
@@ -411,7 +426,7 @@ footer .contain .newsletter form input[type=email i]:focus {
   }
 
   footer .contain {
-    height: 637px;
+    height: 426px;
     justify-content: center;
   }
   footer .contain .newsletter {
@@ -564,8 +579,10 @@ footer .contain .newsletter form input[type=email i]:focus {
     background-image: url("./../images/bg-footer-top-mobile.svg");
   }
   footer .contain {
-    height: 800px;
+    height: 769px;
+    top: 63px;
     flex-direction: column-reverse;
+    align-items: center;
   }
   footer .contain .infos {
     width: 320px;

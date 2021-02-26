@@ -136,8 +136,10 @@
         height: 840px;
         background-image: url('./../images/bg-footer-top-mobile.svg');
         .contain {
-            height: 800px;
+            height: 769px;
+            top: 63px;
             flex-direction: column-reverse;
+            align-items: center;
             .infos {
                 width: 320px;
             }
