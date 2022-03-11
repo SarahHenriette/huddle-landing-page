@@ -127,12 +127,13 @@ main {
         height: 842px;
         position: relative;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         .contain {
+            // background-color: $veryPaleBlue;
             width: 100%;
-            height: 560px;
-            position: absolute;
-            top: 165px;
+            height: auto;
+            position: relative;
+            // top: 165px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -152,9 +153,36 @@ main {
                 }
             }
         }
+
+ 
     }
-    .grow-together {
-        background-image: url('./../images/bg-desktop-1.svg');
+
+    .grow-together .contain {
+        background-color: $veryPaleBlue;
+
+    }
+    .grow-together .contain::before {
+        content: "";
+        width: 100%;
+        height: 234px;
+        background-image: url('./../images/bg-section-top-desktop-1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: -233px;
+        z-index: -1;
+        
+    }
+    .grow-together .contain::after {
+        content: "";
+        width: 100%;
+        height: 234px;
+        background-image: url('./../images/bg-section-bottom-desktop-1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        bottom: -234px;
+        
     }
 
     .flowing-conversations {
@@ -181,6 +209,7 @@ main {
         height: 803px;
         margin-top: 20px;
         background-image: url('./../images/bg-desktop-2.svg');
+        background-size: cover;
         .contain {
             top: 120px;
         }

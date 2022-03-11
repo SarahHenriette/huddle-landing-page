@@ -163,6 +163,7 @@ header .image-header img {
 
 main {
   margin-top: 133px;
+  background-color: red;
 }
 main .background-blue {
   width: 100%;
@@ -172,6 +173,7 @@ main .background-blue {
   background-size: contain;
 }
 main .background-blue .contain {
+  background-color: #f5faff;
   width: 100%;
   height: auto;
   position: relative;
@@ -192,9 +194,6 @@ main .background-blue .contain .image {
 main .background-blue .contain .image img {
   width: 100%;
 }
-main .grow-together .contain {
-  background-color: #f5faff;
-}
 main .grow-together .contain::before {
   content: "";
   width: 100%;
@@ -204,7 +203,6 @@ main .grow-together .contain::before {
   background-size: cover;
   position: absolute;
   top: -233px;
-  z-index: -1;
 }
 main .grow-together .contain::after {
   content: "";
